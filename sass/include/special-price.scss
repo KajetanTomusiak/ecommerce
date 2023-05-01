@@ -1,0 +1,27 @@
+#special-price {
+    margin-top: 1rem;
+
+    .grid-item img {
+        transition: transform .5s ease;
+    }
+
+    .grid-item img:hover {
+        transform: scale(1.05);
+    }
+
+    .btn {
+        color: #21252980;
+    }
+
+    .btn-warning {
+        color: #212529;
+    }
+
+    .btn.is-checked {
+        color: #212529;
+    }
+
+    .btn:hover {
+        color: #212529;
+    }
+}
